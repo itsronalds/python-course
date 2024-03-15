@@ -103,4 +103,4 @@ Según la encuesta del año 2023 en uno de los sitios web más famosos para los 
 
 Por lo tanto, se coloca como una de las mejores opciones para aprender en el mercado laboral para conseguir un empleo en el IT este 2024.
 
-![StackOverflow Survey 2023](https://github.com/itsronalds/python-course/assets/77751686/421bcf0a-f4e6-43a8-aaa5-c5825c45e13c)
+![298300760-421bcf0a-f4e6-43a8-aaa5-c5825c45e13c](https://github.com/itsronalds/python-course/assets/77751686/05dd05e4-ea41-4843-937c-c1175552d67d)
