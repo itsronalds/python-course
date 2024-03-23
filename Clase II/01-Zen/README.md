@@ -49,4 +49,6 @@ Son contenedores que contienen identificadores de nombres a objetos correspondie
 
 En otras palabras, los espacios de nombres nos ayudan a utilizar variables, funciones y clases a través de sus alcances o scopes y estos son guardados en objetos enlanzados a identificadores.
 
+<img width="407" alt="types_namespace-1" src="https://github.com/itsronalds/python-course/assets/77751686/ded7d2e4-7153-4a79-af08-163ab08decf5">
+
 > Los namespaces tienen mucho que ver con scoper lo cual veremos más adelante.
