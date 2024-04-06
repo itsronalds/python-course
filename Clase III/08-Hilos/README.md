@@ -72,3 +72,7 @@ print(thread_result)
 # pid
 print(os.getpid())
 ```
+
+![multithreading-python-11](https://github.com/itsronalds/python-course/assets/77751686/6bcb5822-8d9d-4b2b-b1bd-a8f1a230f9fb)
+
+![multithreading-python-5](https://github.com/itsronalds/python-course/assets/77751686/f3fecadd-0a6e-43c8-af2b-dd6de5db8bcc)
