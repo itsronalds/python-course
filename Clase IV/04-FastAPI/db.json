@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "name": "Joe Doe",
+      "email": "joedoe@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "Ryan Doe",
+      "email": "ryandoe@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "year": 1994,
+      "rating": 9.3,
+      "category": "Drama"
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "overview": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "year": 1972,
+      "rating": 9.2,
+      "category": "Crime"
+    },
+    {
+      "id": 3,
+      "title": "Pulp Fiction",
+      "overview": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "year": 1994,
+      "rating": 8.9,
+      "category": "Crime"
+    },
+    {
+      "id": 4,
+      "title": "The Dark Knight",
+      "overview": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "year": 2008,
+      "rating": 9.0,
+      "category": "Action"
+    },
+    {
+      "id": 5,
+      "title": "Fight Club",
+      "overview": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+      "year": 1999,
+      "rating": 8.8,
+      "category": "Drama"
+    },
+    {
+      "id": 6,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "overview": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "year": 2001,
+      "rating": 8.8,
+      "category": "Adventure"
+    },
+    {
+      "id": 7,
+      "title": "Inception",
+      "overview": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "year": 2010,
+      "rating": 8.7,
+      "category": "Action"
+    },
+    {
+      "id": 8,
+      "title": "The Matrix",
+      "overview": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "year": 1999,
+      "rating": 8.7,
+      "category": "Action"
+    },
+    {
+      "id": 9,
+      "title": "Forrest Gump",
+      "overview": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "year": 1994,
+      "rating": 8.8,
+      "category": "Drama"
+    },
+    {
+      "id": 10,
+      "title": "The Silence of the Lambs",
+      "overview": "A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer who skins his victims.",
+      "year": 1991,
+      "rating": 8.6,
+      "category": "Thriller"
+    },
+    {
+      "id": 11,
+      "title": "Goodfellas",
+      "overview": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+      "year": 1990,
+      "rating": 8.7,
+      "category": "Crime"
+    },
+    {
+      "id": 12,
+      "title": "Schindler's List",
+      "overview": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazi Germans.",
+      "year": 1993,
+      "rating": 8.9,
+      "category": "Drama"
+    },
+    {
+      "id": 13,
+      "title": "The Lion King",
+      "overview": "A young lion prince flees his kingdom after the murder of his father. While away, he learns to embrace his destiny and reclaim his rightful place as king.",
+      "year": 1994,
+      "rating": 8.5,
+      "category": "Animation"
+    },
+    {
+      "id": 14,
+      "title": "The Avengers",
+      "overview": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+      "year": 2012,
+      "rating": 8.0,
+      "category": "Action"
+    },
+    {
+      "id": 15,
+      "title": "Interstellar",
+      "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "year": 2014,
+      "rating": 8.6,
+      "category": "Sci-Fi"
+    }
+  ]
+}
