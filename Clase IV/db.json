@@ -1,83 +1,83 @@
 {
   "books": [
     {
-      "id": 1,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130003",
       "title": "Cien años de soledad",
       "category": "Realismo mágico",
       "release_date": 1967,
       "authors": [
         {
-          "id": 1,
+          "id": "17738d3c-9f1e-11ec-8d3d-0242ac130004",
           "fullname": "Gabriel García Márquez",
           "date_birth": "06-03-1927"
         }
       ]
     },
     {
-      "id": 2,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130005",
       "title": "1984",
       "category": "Ficción distópica",
       "release_date": 1949,
       "authors": [
         {
-          "id": 2,
+          "id": "17738d3c-9f1e-11ec-8d3d-0242ac130006",
           "fullname": "George Orwell",
           "date_birth": "25-06-1903"
         }
       ]
     },
     {
-      "id": 3,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130007",
       "title": "Don Quijote de la Mancha",
       "category": "Novela de caballería",
       "release_date": 1605,
       "authors": [
         {
-          "id": 3,
+          "id": "17738d3c-9f1e-11ec-8d3d-0242ac130008",
           "fullname": "Miguel de Cervantes Saavedra",
           "date_birth": "29-09-1547"
         }
       ]
     },
     {
-      "id": 4,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130009",
       "title": "Harry Potter y la piedra filosofal",
       "category": "Fantasía",
       "release_date": 1997,
       "authors": [
         {
-          "id": 4,
+          "id": "17738d3c-9f1e-11ec-8d3d-0242ac130010",
           "fullname": "J.K. Rowling",
           "date_birth": "31-07-1965"
         }
       ]
     },
     {
-      "id": 5,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130011",
       "title": "El código Da Vinci",
       "category": "Misterio",
       "release_date": 2003,
       "authors": [
         {
-          "id": 5,
+          "id": "17738d3c-9f1e-11ec-8d3d-0242ac130012",
           "fullname": "Dan Brown",
           "date_birth": "22-06-1964"
         }
       ]
     },
     {
-      "id": 6,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130013",
       "title": "Los detectives salvajes",
       "category": "Narrativa",
       "release_date": 1998,
       "authors": [
         {
-          "id": 6,
+          "id": "17738d3c-9f1e-11ec-8d3d-0242ac130014",
           "fullname": "Roberto Bolaño",
           "date_birth": "28-04-1953"
         },
         {
-          "id": 7,
+          "id": "17738d3c-9f1e-11ec-8d3d-0242ac130015",
           "fullname": "A.S. Byatt",
           "date_birth": "24-08-1936"
         }
@@ -86,37 +86,37 @@
   ],
   "authors": [
     {
-      "id": 1,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130004",
       "fullname": "Gabriel García Márquez",
       "date_birth": "06-03-1927"
     },
     {
-      "id": 2,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130006",
       "fullname": "George Orwell",
       "date_birth": "25-06-1903"
     },
     {
-      "id": 3,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130008",
       "fullname": "Miguel de Cervantes Saavedra",
       "date_birth": "29-09-1547"
     },
     {
-      "id": 4,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130010",
       "fullname": "J.K. Rowling",
       "date_birth": "31-07-1965"
     },
     {
-      "id": 5,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130012",
       "fullname": "Dan Brown",
       "date_birth": "22-06-1964"
     },
     {
-      "id": 6,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130014",
       "fullname": "Roberto Bolaño",
       "date_birth": "28-04-1953"
     },
     {
-      "id": 7,
+      "id": "17738d3c-9f1e-11ec-8d3d-0242ac130015",
       "fullname": "A.S. Byatt",
       "date_birth": "24-08-1936"
     }
