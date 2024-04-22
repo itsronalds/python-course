@@ -32,5 +32,4 @@ Los códigos de status más populares son:
 
 > Es muy importante el uso de try-except porque evitan que se produzca un **internal server error** indebido.
 
-![wmkPPztB7KlAC7fPzO0-85NG8t0B9IEh4JEbt_ELP1pvJMhof9vt2pDSwrBZeXodoqaoV_Es1Rur-AWoeoOdV-RIde2vjqyMQuxrqch62uXZ1bsI0yaaMWx-f4cg4BlmOQrI2kFJ6CPXECCd69KeopE](https://github.com/itsronalds/python-course-priv/assets/77751686/987a8816-ebf7-47f4-9226-df4103a5e522)
-
+![wmkPPztB7KlAC7fPzO0-85NG8t0B9IEh4JEbt_ELP1pvJMhof9vt2pDSwrBZeXodoqaoV_Es1Rur-AWoeoOdV-RIde2vjqyMQuxrqch62uXZ1bsI0yaaMWx-f4cg4BlmOQrI2kFJ6CPXECCd69KeopE](https://github.com/itsronalds/python-course/assets/77751686/b42f4cc2-d67e-491d-b465-cb87a2ac2de1)
