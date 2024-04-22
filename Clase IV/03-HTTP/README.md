@@ -12,8 +12,9 @@ Estos métodos nos ayudan a comunicarnos con las REST API's señalando el tipo d
 | delete |             Utilizado para eliminar recursos              |
 
 > Estos son los métodos HTTP más utilizados y que nos permiten la acción de CRUD (create, read, update, delete) en nuestra REST API.
-> 
-![1656172124708](https://github.com/itsronalds/python-course-priv/assets/77751686/16cf3edf-8dfb-4f38-8ea1-d215efa38f7c)
+
+![1656172124708](https://github.com/itsronalds/python-course/assets/77751686/8e878b47-2310-468b-9ee5-79aaf780588d)
+
 
 # Códigos de status HTTP
 
