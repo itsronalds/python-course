@@ -1,59 +1,82 @@
 # Strings
 
-Se explora las diferentes formas de concatenar strings mediante el uso de + o la función format y sus múltiples tipos.
+En Python, existen diferentes maneras de concatenar cadenas de texto, desde el uso del operador `+` hasta funciones como `format` y los f-strings.
 
-# Concatenación de strings
+---
 
-Podemos concatenar strings utilizando el simbolo de +, esta es la manera más común pero no es muy óptimo cuando queremos concatenar varios datos en un string.
+## Concatenación de Strings
 
-> No podemos utilizar este método como forma de concatenar un string con un valor de tipo number ya sea int o float, para eso usamos la función format.
+Podemos concatenar strings utilizando el símbolo `+`. Este método es común, pero no es muy eficiente cuando se necesitan concatenar muchos valores en un string.
 
-# Concatenación: Función format
+> **Nota:** No es posible concatenar un string con valores de tipo `int` o `float` directamente utilizando `+`. Para ello, puedes convertirlos a `str` o usar la función `format`.
 
-En Python podemos dar uso de la función format para tener más flexibilidad a la hora de concatenar valores que provienen de variables en una cadena string.
+---
 
-- Primera forma de hacer uso de format:
+## Concatenación: Función `format`
 
-```$
+La función `format` nos da mayor flexibilidad para incluir variables en cadenas de texto. Hay dos formas principales de usar esta función:
+
+### Primera Forma: Uso Básico de `format`
+
+Podemos utilizar `{}` como placeholders y pasar las variables en el orden correspondiente.
+
+```python
 name = 'Guido'
 lastname = 'Van Rossum'
 age = 67
 language = 'Python'
 
 presentation = 'Hola, mi nombre es {} {}, tengo {} años y soy creador del lenguaje de {}'.format(name, lastname, age, language)
+print(presentation)
 ```
 
-Debemos de colocar las variables dentro de la función format acorde al orden que queremos que se muestren en nuestro string, donde cada apartado se utilizan placeholders.
+---
 
-Podemos utilizar valores de tipo number ya sean int o float en nuestros strings y no ocurrirán problemas.
+### Segunda Forma: F-Strings (Recomendado ✅)
 
-- Segunda y mejor forma de hacer uso de format ✅:
+Introducidos en Python 3.6, los f-strings simplifican el proceso de incluir variables en cadenas. Solo necesitas anteponer la letra `f` al string y usar placeholders `{}`.
 
-```$
+```python
 name = 'Guido'
 lastname = 'Van Rossum'
 age = 67
 language = 'Python'
 
 presentation = f'Hola, mi nombre es {name} {lastname}, tengo {age} años y soy creador del lenguaje de {language}'
+print(presentation)
 ```
 
-Utilizando la letra clave f antes del string, podemos pasar directamente las variables a los placeholders reduciendo el código y la complejidad.
+Este método es más conciso y legible.
 
-# Tipos de Formatting
+---
 
-Podemos utilizar los formatting types para manipular nuestros valores a como nosotros los necesitamos utilizando algunos parámetros claves.
+## Tipos de Formatting
 
-En el ejemplo a continuación pasaremos un valor de tipo int a float utilizando la función format:
+Podemos formatear valores en cadenas para ajustarlos según nuestras necesidades. Por ejemplo, podemos convertir un entero a un decimal con dos decimales utilizando el siguiente formato: `:.2f`.
 
-```$
+### Ejemplo: Formateo de Números
+
+```python
 price = 14
 
-# Forma 1
-print('La camisa cuesta {:.2f}').format(price)
+# Forma 1: Usando format
+print('La camisa cuesta {:.2f}'.format(price))
 
-# Forma 2
+# Forma 2: Usando f-strings
 print(f'La camisa cuesta {price:.2f}')
 ```
 
-- Podemos aprender más acerca del formatting string en [w3schools](https://www.w3schools.com/python/ref_string_format.asp)
+El resultado será el mismo en ambos casos:
+
+```
+La camisa cuesta 14.00
+```
+
+---
+
+## Notas Importantes
+
+- Los **f-strings** son más eficientes y legibles, por lo que se recomienda su uso.
+- El string formatting es una herramienta poderosa para manejar y personalizar la salida de datos en Python.
+
+Para más detalles, consulta la documentación de [w3schools](https://www.w3schools.com/python/ref_string_format.asp).

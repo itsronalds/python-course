@@ -6,18 +6,18 @@ En Python, las conversiones de datos permiten transformar un valor de un tipo de
 
 ## Funciones de Conversión
 
-| **Función** | **Descripción**                                                | **Ejemplo**             |
-|-------------|----------------------------------------------------------------|-------------------------|
-| `str`       | Convierte un valor a un string.                                | `str(1500)` → `'1500'` |
-| `int`       | Convierte un valor string o decimal a un número entero.        | `int('1000')` → `1000` |
-| `float`     | Convierte un valor string o entero a un número decimal (float).| `float(15)` → `15.0`   |
-| `bool`      | Convierte valores o estructuras de datos a `True` o `False`.   | `bool(1)` → `True`     |
+| **Función** | **Descripción**                                                 | **Ejemplo**            |
+| ----------- | --------------------------------------------------------------- | ---------------------- |
+| `str`       | Convierte un valor a un string.                                 | `str(1500)` → `'1500'` |
+| `int`       | Convierte un valor string o decimal a un número entero.         | `int('1000')` → `1000` |
+| `float`     | Convierte un valor string o entero a un número decimal (float). | `float(15)` → `15.0`   |
+| `bool`      | Convierte valores o estructuras de datos a `True` o `False`.    | `bool(1)` → `True`     |
 
 ---
 
 ## Funciones de Conversión: `bool`
 
-La conversión de datos con la función `bool` tiene un comportamiento único en comparación con otras funciones de conversión. Mientras que intentar convertir valores no compatibles (como una letra a un entero) puede generar errores, con `bool` no ocurre lo mismo. 
+La conversión de datos con la función `bool` tiene un comportamiento único en comparación con otras funciones de conversión. Mientras que intentar convertir valores no compatibles (como una letra a un entero) puede generar errores, con `bool` no ocurre lo mismo.
 
 La función `bool` convierte los valores y estructuras de datos a `True` o `False`, dependiendo de su contenido. A continuación, se detalla cómo funciona esta conversión:
 
@@ -25,22 +25,22 @@ La función `bool` convierte los valores y estructuras de datos a `True` o `Fals
 
 ### Valores que se Convierten en `False`
 
-| **Conversión**  | **Resultado** |
-|-----------------|---------------|
-| `bool('')`      | `False`       |
-| `bool(0)`       | `False`       |
-| `bool(0.0)`     | `False`       |
-| `bool([])`      | `False`       |
-| `bool({})`      | `False`       |
-| `bool(())`      | `False`       |
-| `bool(None)`    | `False`       |
+| **Conversión** | **Resultado** |
+| -------------- | ------------- |
+| `bool('')`     | `False`       |
+| `bool(0)`      | `False`       |
+| `bool(0.0)`    | `False`       |
+| `bool([])`     | `False`       |
+| `bool({})`     | `False`       |
+| `bool(())`     | `False`       |
+| `bool(None)`   | `False`       |
 
 ---
 
 ### Valores que se Convierten en `True`
 
-| **Conversión**                                  | **Resultado** |
-|------------------------------------------------|---------------|
+| **Conversión**                                 | **Resultado** |
+| ---------------------------------------------- | ------------- |
 | `bool('Python')`                               | `True`        |
 | `bool(1)`                                      | `True`        |
 | `bool(1.0)`                                    | `True`        |

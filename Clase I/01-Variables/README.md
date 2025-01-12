@@ -23,12 +23,12 @@ occupation = 'Software Engineer'
 
 En Python, los tipos de datos primitivos son los más básicos y esenciales para trabajar con valores. A continuación, se describen los principales:
 
-| **Tipo de Dato** | **Descripción**                                              | **Ejemplo**       |
-|-------------------|--------------------------------------------------------------|-------------------:|
-| `string`          | Permite almacenar cadenas de texto.                         | `'Hello Python'`  |
-| `int`             | Permite almacenar números enteros.                          | `25`              |
-| `float`           | Permite almacenar números decimales.                        | `1.75`            |
-| `bool`            | Representa valores lógicos: `True` o `False` (1 y 0).       | `True`            |
+| **Tipo de Dato** | **Descripción**                                       |      **Ejemplo** |
+| ---------------- | ----------------------------------------------------- | ---------------: |
+| `string`         | Permite almacenar cadenas de texto.                   | `'Hello Python'` |
+| `int`            | Permite almacenar números enteros.                    |             `25` |
+| `float`          | Permite almacenar números decimales.                  |           `1.75` |
+| `bool`           | Representa valores lógicos: `True` o `False` (1 y 0). |           `True` |
 
 ---
 
@@ -54,6 +54,7 @@ múltiples líneas
 La indentación es fundamental en Python, ya que define los bloques de código. Se utiliza especialmente en estructuras como sentencias condicionales, bucles y funciones.
 
 ### **Características clave:**
+
 - Python es estrictamente sensible a la indentación. Una mala indentación generará errores.
 - Además de su importancia funcional, una buena indentación mejora la legibilidad del código.
 
@@ -67,6 +68,7 @@ if True:
 ## **Funciones Esenciales en Python**
 
 ### **1. Función `print()`**
+
 La función `print()` permite mostrar en consola el valor de una variable o cualquier otro dato.
 
 ```python
@@ -79,6 +81,7 @@ print(name)
 ---
 
 ### **2. Función `type()`**
+
 La función `type()` devuelve el tipo de dato de una variable o valor. Esto puede ser útil para depurar o entender el comportamiento del programa.
 
 ```python
@@ -93,6 +96,7 @@ print(type(number))
 ---
 
 ### **3. Función `input()`**
+
 La función `input()` permite recibir datos desde el usuario a través de la consola. Lo ingresado por el usuario siempre será tratado como una cadena (`string`).
 
 ```python
