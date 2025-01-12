@@ -1,106 +1,97 @@
-# ¿Qué es Python?
+# Introducción a Python  
 
-> - Lenguaje de alto nivel, interpretado, de tipado dinámico y estático
-> - Es multipropósito por lo que puede ser utilizado en diferentes áreas del desarrollo de software
-> - Creado por el desarrollador de software [Guido van Rossum](https://github.com/gvanrossum) y lanzado en 1991
+## ¿Qué es Python?  
+- Python es un lenguaje de programación de **alto nivel**, **interpretado**, y con **tipado dinámico y estático**.  
+- Es un lenguaje **multipropósito**, lo que significa que puede aplicarse en diversas áreas del desarrollo de software.  
+- Fue creado por el desarrollador [Guido van Rossum](https://github.com/gvanrossum) y lanzado en 1991.  
 
-# ¿Dónde Podemos Utilizar Python?
+## ¿Dónde se puede utilizar Python?  
+Gracias a su versatilidad, Python se utiliza en múltiples áreas del desarrollo tecnológico:  
 
-Al ser multipropósito, Python lo podemos utilizar en diferentes áreas:
+- **Machine Learning**: Entrenamiento de modelos de inteligencia artificial utilizando librerías como NumPy, TensorFlow o Keras.  
+- **Internet of Things (IoT)**: Procesamiento e intercambio de datos entre aplicaciones Python y dispositivos electrónicos como cámaras de seguridad, termostatos, refrigeradores inteligentes, entre otros.  
+- **REST APIs**: Desarrollo de aplicaciones en servidores que reciben y procesan solicitudes HTTP para realizar acciones específicas.  
+- **Desarrollo Web**: Creación de aplicaciones web con frameworks como Django o Flask.  
+- **Automatización**: Implementación de scripts para tareas repetitivas, bots o cron jobs.  
 
-> - **Machine Learning**: podemos entrenar modelos de IA para realizar tareas inteligentes, se pueden utilizar librerías como: NumPy, TensorFlow, Keras, entre otros
-> - **IoT**: premite procesar e intercambiar datos a través de HTTP desde una app de Python y dispositivos eléctricos como: neveras, camara de seguridad, medidores de temperaturas, entre otros dispositivos físicos
-> - **REST APIs**: aplicaciones que funcionan en servidores y reciben solicitudes de clientes, las procesan y realizan alguna determinada acción, la comunicación se lleva a cabo por HTTP
-> - **Web Apps**: aplicaciones web que se desarrollan con Python preferiblemente utilizando algún framework web como Django o Flask
-> - **Automatización**: se pueden crear scripts para automatizar tareas que el usuario necesite diariamente programando bots o cron jobs
+### Nota  
+Librerías como **OpenCV** permiten realizar reconocimiento facial utilizando modelos preentrenados incluidos en la propia librería.  
 
-### Nota
+## ¿Quién utiliza Python?  
+Algunas de las empresas tecnológicas más reconocidas emplean Python en sus proyectos:  
+- **Instagram**  
+- **Facebook**  
+- **Tesla**  
+- **Netflix**  
+- **Google**  
+- **Platzi**  
 
-> Librerías como OpenCV nos permite realizar reconocimiento facial de personas con modelos pre-entrenados que nos otorga la librería
+## ¿Por qué Python es un lenguaje de alto nivel?  
+- Diseñado para ser **fácil de aprender** y usar.  
+- Permite a los desarrolladores centrarse en escribir código sin preocuparse por la gestión de memoria, punteros o recolección de basura, ya que Python se encarga de ello automáticamente.  
+- Al ser un lenguaje interpretado, no requiere compilación previa para ejecutarse.  
 
-# ¿Quién Utiliza Python?
+---
 
-> - Instagram
-> - Facebook
-> - Tesla
-> - Netflix
-> - Google
-> - Platzi
+# Lenguajes compilados vs. lenguajes interpretados  
 
-# ¿Por qué Python es un Lenguaje de Alto Nivel?
+Los lenguajes de programación se clasifican según el proceso que traduce su código en instrucciones comprensibles para la CPU.  
 
-> - Creado para ser fácil de aprender y utilizar
-> - Orientado a desarrollar código y solo preocuparnos por ello
-> - No es necesario gestionar punteros, referencias en memoria y recolector de basura. Lo hace por nosotros
-> - Es un lenguaje interpretado, no compilado
+### Compilador  
+Un compilador toma el código fuente, lo transforma en **bytecode** (código binario) y lo almacena para su ejecución.  
 
-# Lenguajes Compilados y Lenguajes Interpretados
+#### ✅ Ventajas:  
+- Ejecución más rápida gracias a la precompilación.  
+- Mayor control sobre punteros y gestión de memoria.  
+- Tipado estático, lo que permite menos errores y una ejecución más eficiente.  
 
-Los lenguajes compilados e interpretados utilizan dos programas informáticos, y son los siguientes:
+#### ❌ Desventajas:  
+- Requiere compilar antes de ejecutar, lo que puede ralentizar el desarrollo.  
+- Exige conocimientos avanzados para manejar referencias y punteros.  
+- El tipado explícito aumenta la precisión, pero también el tiempo de desarrollo.  
 
-## Compilador
+### Intérprete  
+Un intérprete ejecuta el código fuente línea por línea, transformándolo en **bytecode** durante la ejecución.  
 
-> - Programa informático que se encarga de tomar código legible por humanos y transformarlo en bytecode
-> - Bytecode es un código entendible por la CPU y trata de código binario de 0 y 1
-> - Primero necesitamos compilar nuestro código antes de ejecutarlo
+#### ✅ Ventajas:  
+- Desarrollo más ágil, ya que no es necesario compilar.  
+- Manejo automático de memoria y referencias, facilitando la programación.  
+- Ideal para prototipado rápido.  
 
-### ✅ Ventajas
+#### ❌ Desventajas:  
+- Ejecución más lenta al procesar cada línea en tiempo real.  
+- Menor control sobre recursos avanzados como la memoria.  
+- El análisis de tipos dinámicos puede incrementar los tiempos de ejecución.  
 
-> - El programa se ejecuta mucho más rápido al estar en bytecode al momento de ejecutar
-> - Control sobre punteros, referencias en memoria y recolector de basura
-> - Lenguajes estáticos, a cada variable se le define uno/varios tipos por lo que es más intuitivo y rápido (no requiere análisis de tipos)
+---
 
-### ❌ Desventajas
+## Ejemplos de lenguajes compilados:  
+- C  
+- C++  
+- Java  
+- Go  
 
-> - Cada ejecución requiere una compilación previa por lo que es más lento el desarrollo
-> - Se debe tener un buen conocimiento técnico para gestionar punteros, referencias en memoría y recolector de basura
-> - Tipar cada variable puede llevarnos a menos errores a cambio de un mayor tiempo de desarrollo
+## Ejemplos de lenguajes interpretados:  
+- Python  
+- JavaScript  
+- PHP  
 
-## Interprete
+---
 
-> - Programa informático encargado de interpretar el código linea por linea y pasarlo a bytecode
-> - El interprete realiza su trabajo en tiempo de ejecución
-> - Suele utilizase en lenguajes de alto nivel
+# ¿Por qué aprender Python?  
+- Python combina facilidad de uso con potentes herramientas y una vasta colección de librerías.  
+- Es ideal para aplicaciones que manejan grandes volúmenes de datos o requieren alta concurrencia.  
+- Desde la versión 3.5, Python introdujo el tipado estático opcional para mejorar la seguridad y el rendimiento.  
+- Soporta múltiples paradigmas de programación, como la programación orientada a objetos y la funcional.  
 
-### ✅ Ventajas
+---
 
-> - No debemos gestionar temas avanzados como los punteros y referencias en memoria, todo se maneja underhood (bajo capo)
-> - No se debe compilar el código por lo que el desarrollo y depuración es más rápido
-> - No será requerido darle tipado a las variables
+# Encuesta de Stack Overflow 2024
 
-### ❌ Desventajas
+De acuerdo con la encuesta más reciente de [Stack Overflow](https://stackoverflow.com/) realizada en 2024, Python fue clasificado como el **tercer lenguaje de programación más popular a nivel mundial**.  
 
-> - Es más lento que los lenguajes compilados ya que al ser interpretados se ejecuta línea por línea
-> - No tenemos control de los temas avanzados por lo que podemos tener menos eficiencia
-> - Si se utiliza un tipado dinámico el interprete debe analizar dato por dato para determinar su tipo por lo que lleva más tiempo
-> - Debemos utilizar linters para evitar errores (no es 100% necesario pero sería lo más responsable)
+Esto lo convierte en una de las mejores opciones para aprender y mejorar las posibilidades de empleabilidad en el mercado IT en 2024.
 
-## Lenguajes Compilados
+![stackoverflow-dev-survey-2024-technology-most-popular-technologies-language-social](https://github.com/user-attachments/assets/bef653f3-e451-446b-b980-c49372bdcece)
 
-> - C
-> - C#
-> - C++
-> - Java
-> - Go/Golang
-
-## Lenguajes Interpretados
-
-> - Python
-> - JavaScript
-> - PHP
-
-# ¿Porqué Utilizar Python?
-
-> - Aunque un poco más lento, es un lenguaje inteligente, con múltiples herramientas y cientos de librerías
-> - Tiene gran capacidad para realizar procesos pesados que requieren grandes cantidades de datos
-> - Python desde la versión 3.5v+ introdujo el tipado estático, por lo que se puede aprovechar para mejorar en seguridad y velocidad
-> - Ahora nos permite utilizar sub-procesos y threads para tareas asíncronas y concurrentes
-> - Aunque todo en Python es un objeto, nos permite utilizar múltiples paradigmas como la Programación Orientada a Objetos, Programación Funcional, entre otros
-
-# Encuesta StackOverflow 2023
-
-Según la encuesta del año 2023 en uno de los sitios web más famosos para los desarrolladores de software [StackOverflow](https://stackoverflow.com/), Python quedó como el tercer lenguaje de programación más famoso a nivel mundial.
-
-Por lo tanto, se coloca como una de las mejores opciones para aprender en el mercado laboral para conseguir un empleo en el IT este 2024.
-
-![298300760-421bcf0a-f4e6-43a8-aaa5-c5825c45e13c](https://github.com/itsronalds/python-course/assets/77751686/05dd05e4-ea41-4843-937c-c1175552d67d)
+**Link oficial**: https://survey.stackoverflow.co/2024/technology#most-popular-technologies-language
