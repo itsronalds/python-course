@@ -1,75 +1,90 @@
 # Numbers
 
-En Python tenemos tres tipos de valores númericos que son: enteros, flotantes y complejos, los cuales serán explorados a más detalle a continuación
+En Python, existen tres tipos principales de valores numéricos: `int`, `float` y `complex`. A continuación, se explica cada uno de estos tipos en detalle con ejemplos prácticos.
 
-# Enteros
+---
 
-Los enteros son números que no poseen decimales en su estructura:
+## Enteros (`int`)
 
-```$
+Los valores `int` representan números enteros que no poseen decimales.
+
+### Ejemplo:
+
+```python
 lives = 3
 
-# Añadir vidas
+# Incrementar vidas
 lives = lives + 1
-print(lives) # 4
+print(lives)  # Salida: 4
 
-# Eliminar vidas
+# Reducir vidas
 lives = lives - 1
-print(lives) # 3
+print(lives)  # Salida: 3
 ```
 
-# Flotantes
+---
 
-Los flotantes son números que poseen decimales en su estructura:
+## Flotantes (`float`)
 
-```$
+Los valores `float` representan números con decimales.
+
+### Ejemplo:
+
+```python
 pant_price = 15.99
-print(pant_price)
+print(pant_price)  # Salida: 15.99
 
-# Descuento 20%
-pant_price = pant_price * 0.20
-print(pant_price) # 12.792
+# Aplicar descuento del 20%
+pant_price = pant_price * 0.80
+print(pant_price)  # Salida: 12.792
 ```
 
-# Complejos
+---
 
-Los complejos son aquellos que poseen una combinación de números reales e imaginarios.
+## Complejos (`complex`)
 
-La parte de números reales puede ser manejada por número enteros o decimales mientras que la parte imaginaria es aquella cuyo cuadrado es negativo.
+Los números `complex` son aquellos que combinan una parte real y una parte imaginaria. La parte real puede ser un entero o flotante, mientras que la parte imaginaria siempre incluye la unidad imaginaria `j`, cuyo cuadrado es negativo.
 
-> Python es un lenguaje de progamación que se adapta muy bien a la ciencia de datos y las matemáticas, por lo que es bueno para el manejo de números complejos
+Python facilita el manejo de números complejos, lo que lo convierte en una herramienta ideal para cálculos matemáticos avanzados.
 
-```$
-# Podemos utilizar la función de complex para crear un número complejo
+### Ejemplo:
+
+```python
+# Crear un número complejo usando la función complex
 example1 = complex(10, 20)
+print(example1)  # Salida: (10+20j)
 
-## 10 + 20j
-print(example1)
-
-# O podemos ingresar el número imaginario directamente
-example2 = 20 + 10j
-
-## 20 + 10j
-print(example2)
+# Crear un número complejo directamente
+def example2 = 20 + 10j
+print(example2)  # Salida: (20+10j)
 ```
 
-> Los valores complex admiten operadores aritméticos menos el floor division o los operadores de comparación
+### Notas:
 
-# Notación científica
+- Los números `complex` admiten operadores aritméticos como suma, resta y multiplicación.
+- No admiten divisiones de piso (`//`) ni operadores de comparación como `<` o `>`.
 
-Para expresar valores significativamente grandes o pequeños, se utiliza la notación científica que es una forma de escribir dichos valores de una manera abriviada:
+---
 
-```$
+## Notación científica
+
+Para representar valores extremadamente grandes o pequeños, Python utiliza la notación científica, que es una forma abreviada y más legible de escribir dichos números.
+
+### Ejemplo:
+
+```python
 number_a = 4500000000000000000.1
-print(number_a)
+print(number_a)  # Salida: 4.5e+18
 
 number_b = 0.0000000000000000011
-print(number_b)
+print(number_b)  # Salida: 1.1e-18
 ```
 
-> El interprete de Python pasa automáticamente valores flotantes que son muy grandes o muy pequeños a notación científica para ser más fácil de leer, no quiere decir que el valor haya cambiado, solo su representación cambió.
+Python convierte automáticamente los valores flotantes muy grandes o pequeños a notación científica para mejorar la legibilidad, sin alterar su valor subyacente.
 
-# Recursos
+---
+
+## Recursos adicionales
 
 - [Notación científica](https://www.todamateria.com/notacion-cientifica/)
 - [Números complejos en Python](https://www.python-engineer.com/posts/complex-numbers-python/)

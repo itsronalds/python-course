@@ -1,48 +1,55 @@
 # Booleans
 
-Son valores True o False que corresponde a los binarios 1 y 0.
+Los valores booleanos representan dos estados lógicos: `True` o `False`, los cuales corresponden a los valores binarios `1` y `0`.
 
-```$
+```python
 is_developer = True
-print(is_developer)
+print(is_developer)  # True
 
 is_senior = False
-print(is_senior)
+print(is_senior)  # False
 ```
 
-# Transformaciones
+---
 
-Datos y estructura de datos pueden transformarse a booleanos True o False dependiendo de su estructura. A continuación se puede apreciar la manera en como valores puede traducirse a valores booleanos:
+## Conversiones
 
-- Datos y estructuras de datos que pasan a False
+Python permite convertir datos y estructuras de datos a valores booleanos (`True` o `False`), dependiendo de su contenido o estructura. A continuación, se detallan los casos más comunes:
 
-| Coversión  | Resultado |
-| :--------- | :-------: |
-| bool('')   |   False   |
-| bool(0)    |   False   |
-| bool(0.0)  |   False   |
-| bool([])   |   False   |
-| bool({})   |   False   |
-| bool(())   |   False   |
-| bool(None) |   False   |
-| bool([])   |   False   |
+### Valores que se Convierten en `False`
 
-- Datos y estructuras de datos que pasan a True
+Los siguientes valores son evaluados como `False` al ser convertidos a booleanos:
 
-| Coversión                                    | Resultado |
-| :------------------------------------------- | :-------: |
-| bool('Python')                               |   True    |
-| bool(1)                                      |   True    |
-| bool(1.0)                                    |   True    |
-| bool(['Python', 'Go', 'JavaScript', 'Rust']) |   True    |
-| bool({ 'a': 'b', b: 'a' })                   |   True    |
-| bool(('a', 10, True, False))                 |   True    |
+| **Conversión** | **Resultado** |
+| -------------- | ------------- |
+| `bool('')`     | `False`       |
+| `bool(0)`      | `False`       |
+| `bool(0.0)`    | `False`       |
+| `bool([])`     | `False`       |
+| `bool({})`     | `False`       |
+| `bool(())`     | `False`       |
+| `bool(None)`   | `False`       |
 
-# Operador not
+### Valores que se Convierten en `True`
 
-También conocido como operador de negación, es utilizado para revertir valores booleanos:
+Cualquier valor no vacío o distinto de cero será evaluado como `True`:
 
-```$
+| **Conversión**                                 | **Resultado** |
+| ---------------------------------------------- | ------------- |
+| `bool('Python')`                               | `True`        |
+| `bool(1)`                                      | `True`        |
+| `bool(1.0)`                                    | `True`        |
+| `bool(['Python', 'Go', 'JavaScript', 'Rust'])` | `True`        |
+| `bool({'a': 'b', 'b': 'a'})`                   | `True`        |
+| `bool(('a', 10, True, False))`                 | `True`        |
+
+---
+
+## Operador `not`
+
+El operador `not`, también conocido como operador de negación, se utiliza para invertir el valor booleano de una expresión.
+
+```python
 is_developer = True
 is_professor = False
 
@@ -52,3 +59,11 @@ print(not is_developer)
 # Resultado: True
 print(not is_professor)
 ```
+
+---
+
+## Notas Importantes
+
+- Los valores **vacíos** (cadenas, listas, diccionarios, tuplas, etc.) y el valor `None` siempre serán evaluados como `False`.
+- Valores **no vacíos** o números diferentes de `0` serán evaluados como `True`.
+- Este comportamiento facilita la evaluación de condiciones en estructuras de control como `if`, proporcionando flexibilidad al trabajar con diferentes tipos de datos.
