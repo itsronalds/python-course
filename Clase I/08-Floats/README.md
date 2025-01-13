@@ -1,8 +1,8 @@
-# Floats
+# Números flotantes (Floats)
 
-En Python cuando intentamos sumar valores flotantes podemos obtener resultados inesperados:
+En Python, cuando intentamos sumar valores flotantes, podríamos obtener resultados inesperados debido a la manera en que estos números se representan internamente:
 
-```$
+```python
 x = 1.1 + 2.2
 
 # Resultado: 3.3000000000000003
@@ -14,9 +14,9 @@ y = 1.1 + 2.0
 print(y)
 ```
 
-Si no tenemos cuidado podríamos tener errores al realizar comparaciones:
+Estos resultados pueden generar errores al realizar comparaciones entre valores flotantes:
 
-```
+```python
 x = 3.3
 y = 2.2 + 1.1
 
@@ -27,15 +27,15 @@ print(x == y)
 print(y)
 ```
 
-# Comparación correcta
+## Comparación correcta
 
-Teniendo en cuenta los posibles errores que podemos presentar cuando intentamos comparar valores flotantes, existen algunas técnicas que podemos aplicar:
+Para evitar errores al comparar valores flotantes, existen varias técnicas que podemos aplicar:
 
-## Solución 1: Función formatd
+### Solución 1: Utilizar la función `format`
 
-Al utilizar la función format podemos formatear el flotante que posee una alta precisión y extraer las decimales que necesitamos:
+Al emplear la función `format`, podemos formatear el valor flotante con una precisión específica y trabajar con las decimales necesarias:
 
-```$
+```python
 x = 3.3
 y = 2.2 + 1.1
 
@@ -48,11 +48,11 @@ print(y_str)
 print(str(x) == y_str)
 ```
 
-## Solución 2: Función round
+### Solución 2: Utilizar la función `round`
 
-La función round nos permite obtener una cantidad de decimales según el número que queremos extraer:
+La función `round` nos permite redondear un valor flotante a un número específico de decimales:
 
-```$
+```python
 x = 3.3
 y = 2.2 + 1.1
 
@@ -62,25 +62,11 @@ rounded_y = round(y, 1)
 print(x == rounded_y)
 ```
 
-## Solución 3: Función isclose de la librería math
+### Solución 3: Usar un margen de tolerancia
 
-La función isclose nos permite saber si dos números están relativamente cerca, suele usarse para comparar flotantes:
+El margen de tolerancia permite determinar si dos valores flotantes son suficientemente cercanos, considerando una diferencia mínima aceptable:
 
-```$
-from math import isclose
-
-x = 3.3
-y = 2.2 + 1.1
-
-# Resultado: True
-print(isclose(x, y))
-```
-
-## Solución 4: Margen de tolerancia
-
-El margen de tolerancia es utilizado para determinar si dos valores con decimales son cercanos o no:
-
-```$
+```python
 x = 3.3
 y = 2.2 + 1.1
 
@@ -90,6 +76,6 @@ tolerance = 0.00001
 print(abs(x - y) < tolerance)
 ```
 
-# Recursos
+## Recursos adicionales
 
-> - [Python floats](https://www.pythontutorial.net/advanced-python/python-float/)
+- [Python floats](https://www.pythontutorial.net/advanced-python/python-float/)

@@ -1,14 +1,16 @@
-# Operadores lógicos
+# Operadores Lógicos en Python
 
-Son operadores que nos ayudan a determinar decisiones durante la ejecución del código, entre ellos tenemos: and, or y not.
+Los operadores lógicos en Python nos permiten realizar evaluaciones condicionales y tomar decisiones basadas en múltiples criterios. Los principales operadores son `and`, `or` y `not`.
 
-# and
+---
 
-Nos permite determinar si una u otra/s condiciones son todas True, en caso contrario obtendremos un False.
+## Operador `and`
 
-- Podemos utilizar booleanos:
+El operador `and` evalúa si **todas** las condiciones son `True`. Si alguna es `False`, el resultado será `False`.
 
-```$
+### Ejemplo con valores booleanos:
+
+```python
 # True
 print(True and True)
 
@@ -22,21 +24,25 @@ print(False and True)
 print(False and False)
 ```
 
-- O números:
+### Ejemplo con comparaciones numéricas:
 
-```$
-# True
+```python
+# True (ambas condiciones son verdaderas)
 print(5 < 10 and 1 < 5)
 
-# False
+# False (la segunda condición es falsa)
 print(5 < 10 and 1 > 5)
 ```
 
-# or
+---
 
-Nos permite determinar si al menos una de las condiciones es True, de lo contario recibiremos un False:
+## Operador `or`
 
-```$
+El operador `or` evalúa si **al menos una** de las condiciones es `True`. Si todas las condiciones son `False`, el resultado será `False`.
+
+### Ejemplo con valores booleanos:
+
+```python
 # True
 print(True or True)
 
@@ -47,6 +53,17 @@ print(True or False)
 print(False or False)
 ```
 
-# not
+---
 
-Ver sección [05-Booleans](https://github.com/itsronalds/python-course/tree/main/05-Booleans)
+## Operador `not`
+
+El operador `not` invierte el valor booleano de una expresión. Es decir, si la expresión es `True`, devolverá `False`, y viceversa.
+
+Consulta más detalles sobre el operador `not` en la sección [05-Booleans](https://github.com/itsronalds/python-course/tree/main/05-Booleans).
+
+---
+
+### Recursos Adicionales
+
+- [Documentación oficial de Python sobre operadores lógicos](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)
+- [Explicación de operadores en Python](https://realpython.com/python-operators/#logical-operators)
