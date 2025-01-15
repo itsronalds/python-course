@@ -2,7 +2,7 @@
 
 Estructura de datos mutables que guarda valores únicos y de una manera no ordenada.
 
-```$
+```python
 # Creamos un conjunto de números
 numbers = { 1, 2, 3, 4, 1 }
 
@@ -29,28 +29,28 @@ Al ser una estructura mutable posee métodos para manipular sus datos, los más 
 | pop()     |                                Elimina un valor random                                 |                            values.pop() |
 | union()   | Como update pero puede agregar varios conjuntos a la vez y debemos instanciar la union |          values.union(set1, set2, n...) |
 
-> - La diferencia entre **discart** y **remove** es que discart no nos devuelve un error si no encuentra el valo que buscamos, mientras que remove nos da una excepción.
+> - La diferencia entre **discard** y **remove** es que **discard** no nos devuelve un error si no encuentra el valor que buscamos, mientras que **remove** nos da una excepción.
 
 # Método add
 
 Añade un nuevo valor al conjunto:
 
-```$
+```python
 # Creamos un conjunto
 numbers = {1, 10, 5, 2}
 
 # Agregamos un nuevo valor
 numbers.add(20)
 
-# Resultado: 1, 2, 5, 10, 20
+# Resultado: {1, 2, 5, 10, 20}
 print(numbers)
 ```
 
 # Método update
 
-Actualiza un conjunto agergando nuevos valores de otro conjunto:
+Actualiza un conjunto agregando nuevos valores de otro conjunto:
 
-```$
+```python
 # Creamos conjunto A
 numbers_a = {1, 10, 5, 2}
 
@@ -60,7 +60,7 @@ numbers_b = {1, 11, 5, 3}
 # Actualizamos conjunto a
 numbers_a.update(numbers_b)
 
-# Resultado: 1, 2, 3, 5, 10, 11
+# Resultado: {1, 2, 3, 5, 10, 11}
 print(numbers_a)
 ```
 
@@ -68,14 +68,14 @@ print(numbers_a)
 
 Elimina un valor que le pasemos por parámetro:
 
-```$
+```python
 # Creamos un conjunto
 numbers = {1, 10, 5, 2}
 
 # Removemos el valor 10
 numbers.discard(10)
 
-# Resultado: 1, 2, 5
+# Resultado: {1, 2, 5}
 print(numbers)
 ```
 
@@ -83,14 +83,14 @@ print(numbers)
 
 Elimina un valor que le pasemos por parámetro pero si el elemento no existe arroja una excepción:
 
-```$
+```python
 # Creamos un conjunto
 numbers = {1, 10, 5, 2}
 
 # Removemos el valor 5
 numbers.remove(5)
 
-# Resultado: 1, 2, 10
+# Resultado: {1, 2, 10}
 print(numbers)
 ```
 
@@ -98,7 +98,7 @@ print(numbers)
 
 Elimina un valor random:
 
-```$
+```python
 # Creamos un conjunto
 numbers = {1, 10, 5, 2}
 
@@ -113,7 +113,7 @@ print(numbers)
 
 Une uno o más conjuntos al conjunto principal y genera uno nuevo:
 
-```$
+```python
 # Creamos un conjunto a
 numbers_a = {1, 10, 5, 2}
 
